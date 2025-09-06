@@ -1,0 +1,15 @@
+/* Incoming messages */
+.message-in .copyable-text {
+  background-color: #d4f8d4 !important;
+  border-radius: 15px !important;
+  padding: 6px 10px !important;
+  color: #000 !important;
+}
+
+/* Outgoing messages */
+.message-out .copyable-text {
+  background-color: #a7f3a7 !important;
+  border-radius: 15px !important;
+  padding: 6px 10px !important;
+  color: #000 !important;
+}

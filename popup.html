@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WhatsApp Themes</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 10px;
+      width: 200px;
+    }
+    button {
+      display: block;
+      margin: 5px 0;
+      padding: 8px;
+      width: 100%;
+      cursor: pointer;
+      border: none;
+      border-radius: 6px;
+    }
+    button:hover {
+      opacity: 0.9;
+    }
+    .reset {
+      background: #f44336;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h3>Select a Theme</h3>
+  <button data-theme="styles/theme1.css">Green Bubbles</button>
+  <button data-theme="styles/theme2.css">Dark Mode</button>
+  <button data-theme="styles/theme3.css">Minimal White</button>
+  <hr>
+  <button id="resetBtn" class="reset">Reset to Default</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>

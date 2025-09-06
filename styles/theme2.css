@@ -1,0 +1,20 @@
+/* Dark incoming messages */
+.message-in .copyable-text {
+  background-color: #2a2f32 !important;
+  border-radius: 15px !important;
+  padding: 6px 10px !important;
+  color: #e0e0e0 !important;
+}
+
+/* Dark outgoing messages */
+.message-out .copyable-text {
+  background-color: #056162 !important;
+  border-radius: 15px !important;
+  padding: 6px 10px !important;
+  color: #fff !important;
+}
+
+/* Chat background */
+._1ADa8 {
+  background-color: #121212 !important;
+}
